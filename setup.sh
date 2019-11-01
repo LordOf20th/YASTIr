@@ -2,7 +2,7 @@
 # Script from https://layereight.de/raspberry-pi/2016/08/25/raspbian-rtl8812au.html , I added the installation of flex and bison because they are necessary for rpi-source to work properly
 # install necessary software
 sudo apt-get update
-sudo apt-get install bc git flex bison
+sudo apt-get install bc git flex bison build-essential
 
 # download raspbian kernel sources, takes some minutes
 sudo wget "https://raw.githubusercontent.com/notro/rpi-source/master/rpi-source" -O /usr/bin/rpi-source
